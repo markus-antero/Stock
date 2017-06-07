@@ -39,7 +39,7 @@ It is designed as modular tool with programmable objects at core.
 E.g. In this project, the main access is done with using scripts, but the core is done using the objects. 
 
 
-Additional content
+add additional content
 ------------------
 .. toctree::
    :maxdepth: 2
@@ -47,7 +47,7 @@ Additional content
    ./manual/sphinx
 
 error handling
-
+--------------
 try:
     # catch exc if index out of range
     print 'Looks like a bad index'
@@ -60,8 +60,9 @@ except:
 finally:
     print ('executes always')
     
-sphinx (http://www.sphinx-doc.org/en/stable/invocation.html)
-
+sphinx 
+------
+(http://www.sphinx-doc.org/en/stable/invocation.html)
 sphinx-quickstart
 	sphinx-quickstart [options] [projectdir]
 
