@@ -59,3 +59,25 @@ except:
     traceback.print_exc()    
 finally:
     print ('executes always')
+    
+sphinx (http://www.sphinx-doc.org/en/stable/invocation.html)
+
+sphinx-quickstart
+	sphinx-quickstart [options] [projectdir]
+
+sphinx-apidoc
+	sphinx-apidoc [options] -o outputdir packagedir [pathnames]
+	
+make html
+make clean
+
+https://www.youtube.com/watch?v=qrcj7sVuvUA	
+
+to use as a template for python package
+
+	https://pythonhosted.org/an_example_pypi_project/sphinx.html
+
+Creating source
+---------------
+1. build source codes in modules with __init__.py for each folder
+2. use sphinx-apidoc to autogenerate source codes to rst files (sphinx-apidoc -o . ./[source])
