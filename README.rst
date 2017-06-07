@@ -37,3 +37,12 @@ As development platform Python has mixed identity - it can be used to:
  
 It is designed as modular tool with programmable objects at core.
 E.g. In this project, the main access is done with using scripts, but the core is done using the objects. 
+
+
+Additional content
+------------------
+.. toctree::
+   :maxdepth: 2
+
+   ./manual/sphinx
+
