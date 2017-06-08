@@ -1,3 +1,6 @@
+
+
+
 Python SQL to ARCGIS development
 ================================
 
@@ -20,6 +23,14 @@ Python to UI:
 - html5lib				
 - esri arcgis			
 
+S&P 500
+=======
+The map produced as the result is available at:
+
+- https://nedlaw.maps.arcgis.com/apps/webappviewer/index.html?id=15677178af9a4808961d957cc21064d3
+
+The map features countries and companies as separate features. 
+
 problems to solve
 -----------------
 - Acquiring and redefining static and updating data.
@@ -27,8 +38,10 @@ problems to solve
 - Importing and exporting data from the ARCGIS platform. 
 - Visualization 
 
-Python as a Puzzle
-------------------
+Opinions about Python
+=====================
+
+
 As development platform Python has mixed identity - it can be used to: 
 
 - supplement command prompt 
@@ -37,7 +50,6 @@ As development platform Python has mixed identity - it can be used to:
  
 It is designed as modular tool with programmable objects at core.
 E.g. In this project, the main access is done with using scripts, but the core is done using the objects. 
-
 
 add additional content
 ------------------
