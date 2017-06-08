@@ -7,9 +7,9 @@ The map produced as the result is available at:
 The map features countries and companies as separate features. 
 The solution is divided to scripts and additional source files divided to three modules:
 
-- complex (Math module)
-- finance (Data objects)
-- geographic (Map)
+- ./data/complex (Math module)
+- ./data/finance (Data objects)
+- ./data/geographic (Map)
 
 Python SQL to ARCGIS development
 ================================
@@ -77,21 +77,15 @@ finally:
 sphinx 
 ------
 (http://www.sphinx-doc.org/en/stable/invocation.html)
-sphinx-quickstart
-	sphinx-quickstart [options] [projectdir]
+sphinx-quickstart - sphinx-quickstart [options] [projectdir]
 
-sphinx-apidoc
-	sphinx-apidoc [options] -o outputdir packagedir [pathnames]
+sphinx-apidoc -	sphinx-apidoc [options] -o outputdir packagedir [pathnames]
 	
 make html
 
 make clean
 
-https://www.youtube.com/watch?v=qrcj7sVuvUA	
-
-to use as a template for python package
-
-	https://pythonhosted.org/an_example_pypi_project/sphinx.html
+to use as a template for python package (https://pythonhosted.org/an_example_pypi_project/sphinx.html)
 
 Creating source
 
