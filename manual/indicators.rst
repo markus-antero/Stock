@@ -9,10 +9,6 @@ UN - sustainable development goals - top 5 - the noble goals
 4. quality education
 5. gender equality
 
-...
-
-13. climate action 
-
 - http://www.un.org/sustainabledevelopment/sustainable-development-goals/
 
 Food production
