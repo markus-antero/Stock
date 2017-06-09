@@ -70,6 +70,6 @@ An important number to watch during Trump's presidency is 15,948. That is, accor
 
 Compared to the estimated total death toll of 450,000, that's a relatively small number. It's the most heartbreaking one, though. It shames Syria's dictator and his Iranian and Russian enablers. It shames the Islamic State, al-Nusra and other jihadists, too. And it shames western leaders like Obama who failed to stop the slaughter. Now this will be Trump's problem. One way to measure Trump's leadership on the world stage will be to count how many more children die in Syria's foul war. 
 
-http://www.syriahr.com/en/?p=56923
+- http://www.syriahr.com/en/?p=56923
 
 
