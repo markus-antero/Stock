@@ -20,7 +20,7 @@ The information used is collected through different REST services. Each service 
 - SandP500history table is the running benchmark
 - GeographicNE and cities tables contain the geographic information needed to link location to company. 
 
-.. image:: database.jpg
+.. image:: database_q.jpg
 
 Python SQL to ARCGIS development
 ================================
