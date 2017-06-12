@@ -1,5 +1,7 @@
-10 Metrics to monitor in US - source Bloomberg view
-===================================================
+8 Metrics to monitor in US - source Bloomberg view
+==================================================
+
+Source: https://www.bloomberg.com/view/articles/2017-01-20/17-metrics-to-watch-in-the-trump-era
 
 Manufacturing Jobs
 ------------------
