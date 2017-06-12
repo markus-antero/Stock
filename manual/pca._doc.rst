@@ -40,6 +40,7 @@ Links
 -----
 
 PCA
+
 i. https://docs.scipy.org/doc/scipy/reference/optimize.nonlin.html
 i. http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
 i. https://plot.ly/ipython-notebooks/principal-component-analysis/
@@ -47,6 +48,7 @@ i. http://occamstypewriter.org/boboh/2012/01/17/pca_and_pcoa_explained/
 i. https://github.com/jakevdp/sklearn_pycon2015/blob/master/notebooks/04.1-Dimensionality-PCA.ipynb
 
 Solver  
+
 i. https://github.com/rasbt
 i. http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html/2
 i. https://www.coursera.org/learn/machine-learning
