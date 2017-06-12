@@ -25,8 +25,8 @@ The information used is collected through different REST services. Each service 
 Python SQL to ARCGIS development
 ================================
 
-In this project I wanted to build, learn, and test Python as a mediator technology between SQL data-store and an existing front-end UI called ARCGIS. 
-As an UI platform I liked ARCGIS ( https://developers.arcgis.com/ ) due to its developer friendly appearance.
+this project tests Python as a mediator technology between SQL data-store and an existing front-end UI called ARCGIS. 
+As an UI platform, ARCGIS ( https://developers.arcgis.com/ ) is developer-friendly.
 
 To discover the links between source and documentation, database and thin-client UI, and programming practices and available libraries.
 The development platform used is Python 3.5.
