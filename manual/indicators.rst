@@ -37,14 +37,13 @@ Estimated to reach 9.5 billion by the year 2050
 Global population is driven regionally 
 
 - http://worldpopulationhistory.org/map/1953/mercator/1/0/25/ Environment 
------------
 - http://www.worldometers.info/
 - http://www.poodwaddle.com/worldclock/env/
 - http://www.globalwaterforum.org/resources/data/
 
 
-Conclusions
------------
+Summary
+-------
 Deficit of existing resources will continue to grow annually (fuelled by population growth in specific regions)
 
 - https://www.foe.co.uk/sites/default/files/downloads/overconsumption.pdf
