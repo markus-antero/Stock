@@ -11,6 +11,17 @@ The solution is divided to scripts and additional source files divided to three 
 - ./data/finance (Data objects)
 - ./data/geographic (Map)
 
+Linked database design and queries
+----------------------------------
+The information used is collected through different REST services. Each service type is linked with table (table = service call).
+
+- SandP500Index and CompanyStatistics tables share the [Symbol] as ID.
+- SandP500_index_data tables contains the running record of company performance. 
+- SandP500history table is the running benchmark
+- GeographicNE and cities tables contain the geographic information needed to link location to company. 
+
+.. image:: database.jpg
+
 Python SQL to ARCGIS development
 ================================
 
