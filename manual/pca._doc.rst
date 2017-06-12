@@ -41,19 +41,19 @@ Links
 
 PCA
 
-i. https://docs.scipy.org/doc/scipy/reference/optimize.nonlin.html
-i. http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
-i. https://plot.ly/ipython-notebooks/principal-component-analysis/
-i. http://occamstypewriter.org/boboh/2012/01/17/pca_and_pcoa_explained/
-i. https://github.com/jakevdp/sklearn_pycon2015/blob/master/notebooks/04.1-Dimensionality-PCA.ipynb
+- https://docs.scipy.org/doc/scipy/reference/optimize.nonlin.html
+- http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+- https://plot.ly/ipython-notebooks/principal-component-analysis/
+- http://occamstypewriter.org/boboh/2012/01/17/pca_and_pcoa_explained/
+- https://github.com/jakevdp/sklearn_pycon2015/blob/master/notebooks/04.1-Dimensionality-PCA.ipynb
 
 Solver  
 
-i. https://github.com/rasbt
-i. http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html/2
-i. https://www.coursera.org/learn/machine-learning
-i. http://www.holehouse.org/mlclass/
-i. http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml
-i. http://deeplearning.net/software/theano/
+- https://github.com/rasbt
+- http://www.kdnuggets.com/2015/11/seven-steps-machine-learning-python.html/2
+- https://www.coursera.org/learn/machine-learning
+- http://www.holehouse.org/mlclass/
+- http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml
+- http://deeplearning.net/software/theano/
 
     
