@@ -22,8 +22,6 @@ The information used is collected through different REST services. Each service 
 
 .. image:: database_q.jpg
 
-SQL to Python
--------------
 SQL 
 
   SELECT [Date] ,[Volume] ,[Adj Close] ,[100ma] ,stati.[symbol],[Latitude] ,[Longitude], s.City
