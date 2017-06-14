@@ -46,7 +46,9 @@ SQL
         where cities.iso3 is not null
         order by comp.symbol) 
   s on s.symbol = stati.symbol
+  
   where DATEDIFF(day,[Date],getdate()) between 0 and 170 
+  
   order by stati.symbol, [Date]
   
 
