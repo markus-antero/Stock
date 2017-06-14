@@ -22,16 +22,6 @@ The information used is collected through different REST services. Each service 
 
 .. image:: database_q.jpg
 
-Python SQL to ARCGIS development
-================================
-
-this project tests Python as a mediator technology between SQL data-store and an existing front-end UI called ARCGIS. 
-As an UI platform, ARCGIS ( https://developers.arcgis.com/ ) is developer-friendly.
-
-To discover the links between source and documentation, database and thin-client UI, and programming practices and available libraries.
-The development platform used is Python 3.5.
-Task specific packages include:
-
 SQL to Python
 -------------
 SQL 
@@ -50,7 +40,6 @@ SQL
   where DATEDIFF(day,[Date],getdate()) between 0 and 170 
   
   order by stati.symbol, [Date]
-  
 
 Query using SQL alchemy - parameter name notation - :gigs 
  
@@ -61,6 +50,16 @@ Query using SQL alchemy - parameter name notation - :gigs
   FROM [finance].[dbo].[SandP500Index] as c_index
                 inner join [finance].[dbo].[companyStatistics] as stat on c_index.symbol = stat.symbol
   where [GICS_Sector] like :gigs
+
+Python SQL to ARCGIS development
+================================
+
+this project tests Python as a mediator technology between SQL data-store and an existing front-end UI called ARCGIS. 
+As an UI platform, ARCGIS ( https://developers.arcgis.com/ ) is developer-friendly.
+
+To discover the links between source and documentation, database and thin-client UI, and programming practices and available libraries.
+The development platform used is Python 3.5.
+Task specific packages include:
 
 - geoalchemy2 
 - geopandas   
