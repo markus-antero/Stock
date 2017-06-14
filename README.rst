@@ -38,12 +38,12 @@ SQL
 
   SELECT [Date] ,[Volume] ,[Adj Close] ,[100ma] ,stati.[symbol],[Latitude] ,[Longitude], s.City
   FROM [finance].[dbo].[SandP500_index_data] as stati INNER JOIN 
-            (SELECT top 10  [symbol], [Latitude] ,[Longitude], cities.City
-            FROM [finance].[dbo].[SandP500Index] as comp left join [finance].[dbo].[cities] 
-                               on cities.City = comp.city and cities.iso3 = comp.iso3 
-                                inner join [finance].[dbo].[GeographicNE] as country on cities.iso3 = country.iso_a3
-                          where cities.iso3 is not null
-                          order by comp.symbol) s on s.symbol = stati.symbol
+       (SELECT top 10  [symbol], [Latitude] ,[Longitude], cities.City
+        FROM [finance].[dbo].[SandP500Index] as comp left join [finance].[dbo].[cities] 
+            on cities.City = comp.city and cities.iso3 = comp.iso3 
+            inner join [finance].[dbo].[GeographicNE] as country on cities.iso3 = country.iso_a3
+        where cities.iso3 is not null
+        order by comp.symbol) s on s.symbol = stati.symbol
   where DATEDIFF(day,[Date],getdate()) between 0 and 170 
   order by stati.symbol, [Date]
   
