@@ -33,6 +33,30 @@ The development platform used is Python 3.5.
 Task specific packages include:
 
 SQL to Python
+-------------
+SQL 
+
+  SELECT [Date] ,[Volume] ,[Adj Close] ,[100ma] ,stati.[symbol],[Latitude] ,[Longitude], s.City
+  FROM [finance].[dbo].[SandP500_index_data] as stati INNER JOIN 
+            (SELECT top 10  [symbol], [Latitude] ,[Longitude], cities.City
+            FROM [finance].[dbo].[SandP500Index] as comp left join [finance].[dbo].[cities] 
+                               on cities.City = comp.city and cities.iso3 = comp.iso3 
+                                inner join [finance].[dbo].[GeographicNE] as country on cities.iso3 = country.iso_a3
+                          where cities.iso3 is not null
+                          order by comp.symbol) s on s.symbol = stati.symbol
+  where DATEDIFF(day,[Date],getdate()) between 0 and 170 
+  order by stati.symbol, [Date]
+  
+
+Query using SQL alchemy - parameter name notation - :gigs 
+ 
+  SELECT c_index.[symbol], [security],[SEC], [GICS_Sector], [GICS_subIndustry],[CIK],[marketCapital]
+                          ,[bookValue], [ebitda], [dividentShare], [DividentYield], [earningShare], [BookPrice]
+                          ,[SalesPrice], [earningsGrowth], [earningsRatio]
+                          ,substring(address, CHARINDEX(', ', address)+1, len(address)-(CHARINDEX(', ', address)-1)) as US_state
+  FROM [finance].[dbo].[SandP500Index] as c_index
+                inner join [finance].[dbo].[companyStatistics] as stat on c_index.symbol = stat.symbol
+  where [GICS_Sector] like :gigs
 
 - geoalchemy2 
 - geopandas   
