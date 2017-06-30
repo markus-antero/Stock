@@ -2,24 +2,6 @@
 Created on 24.2.2017
 
 @author: Markus.Walden
-
-Quandl
-API Key Management
-
-Manual
-    https://www.quandl.com/docs/api#overview
-
-Request 
-    https://www.quandl.com/api/v3/datasets/WIKI/AAPL.csv?api_key=YOURAPIKEY
-    
-Key databases
-    EOD: End-of-Day US Stock Prices
-    SGE: Global Economic Indicators
-    SF1: Core US Stock Fundamentals
-    ZFC: Extended US Stock Fundamentals
-
-Available databases
-    https://www.quandl.com/browse?idx=database-browser_stock-data
 '''
 
 import quandl
