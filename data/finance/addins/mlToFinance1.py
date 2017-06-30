@@ -9,13 +9,13 @@ from matplotlib import style
 import datetime as dt
 import statistics as st
 import random
+from data.finance.addins import GuandlKey
 
 style.use('ggplot')
 
 '''
 Quandl
 API Key Management
-API Key: 2suZ1gv-896LK2WvuzaD
 
 Manual
     https://www.quandl.com/docs/api#overview
@@ -50,7 +50,7 @@ class LinkQuandl(object):
     
     '''
 
-    def __init__(self, key = '2suZ1gv-896LK2WvuzaD'):
+    def __init__(self, key = GuandlKey):
         '''
         Constructor
         API config
