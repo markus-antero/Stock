@@ -2,8 +2,6 @@
 Created on 16.2.2017
 Sharpe ratio, Asset classification, income statement, operation ration
 
-James Chistopher
-
 @author: Markus.Walden
 '''
 import datetime as dt
