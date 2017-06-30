@@ -5,7 +5,6 @@ Created on 24.2.2017
 
 Quandl
 API Key Management
-API Key: 2suZ1gv-896LK2WvuzaD
 
 Manual
     https://www.quandl.com/docs/api#overview
