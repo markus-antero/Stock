@@ -7,9 +7,9 @@ The map produced as the result is available at:
 The map features countries and companies as separate features. 
 The solution is divided to scripts and additional source files divided to three modules:
 
-- ./data/complex (Math module)
-- ./data/finance (Data objects)
-- ./data/geographic (Map)
+- ./data/complex (Math module) see complex.ipynb
+- ./data/finance (Data objects) see finance.ipymb
+- ./data/geographic (Map) see geographic.ipymb
 
 Linked database design and queries
 ----------------------------------
