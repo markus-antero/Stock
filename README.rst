@@ -4,6 +4,8 @@ The map produced as the result is available at:
 
 - https://nedlaw.maps.arcgis.com/apps/webappviewer/index.html?id=15677178af9a4808961d957cc21064d3
 
+.. image:: Map.jpg
+
 The map features countries and companies as separate features. 
 The solution is divided to scripts and additional source files divided to three modules:
 
