@@ -22,12 +22,12 @@ AS a method for native Python based development Orange Canvas is used as the ana
 The Orange Canvas is a GUI tool embedded with it's own Python based libraries.
 A session in the Orange Canvas is visualized in:
 
-.. image:: orangeCanvas.jpg
+.. image:: images/orangeCanvas.jpg
 
 As an analytics tool, the platform is usable as a visual staging area database.
 It can also be used to plot information or to produce automated reports for documentation.
 
-.. image:: goverment_debt_vs_gdp.png
+.. image:: images/goverment_debt_vs_gdp.png
 
 S&P 500
 -------
@@ -35,7 +35,7 @@ The map produced as the result is available at:
 
 - https://nedlaw.maps.arcgis.com/apps/webappviewer/index.html?id=15677178af9a4808961d957cc21064d3
 
-.. image:: Map.jpg
+.. image:: images/Map.jpg
 
 The map features countries and companies as separate features. 
 The solution is divided to scripts and additional source files divided to three modules:
@@ -53,7 +53,7 @@ The information used is collected through different REST services. Each service 
 - SandP500history table is the running benchmark
 - GeographicNE and cities tables contain the geographic information needed to link location to company. 
 
-.. image:: database_q2.jpg
+.. image:: images/database_q2.jpg
 
 SQL 
 
