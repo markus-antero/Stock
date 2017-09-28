@@ -2,7 +2,7 @@ ARCGIS to SQL project
 =====================
 The existing scope of this project is visualized in:
 
-.. image:: domain.jpg
+.. image:: images/domain.jpg
 
 The scope is linked using the Python programming-language.
 
