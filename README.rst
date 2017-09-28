@@ -25,13 +25,9 @@ A session in the Orange Canvas is visualized in:
 .. image:: orangeCanvas.jpg
 
 As an analytics tool, the platform is usable as a visual staging area database.
-It can also be used to plot information;
+It can also be used to plot information or to produce automated reports for documentation.
 
 .. image:: goverment_debt_vs_gdp.png
-
-or to produce automated reports for documentation.
-
-- https://github.com/markus-antero/Stock/blob/master/wb_report.pdf
 
 S&P 500
 -------
