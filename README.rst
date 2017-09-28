@@ -10,9 +10,9 @@ Additional sources:
 
 - https://github.com/markus-antero/Stock/blob/master/manual/8_METRICS.rst
 - https://github.com/markus-antero/Stock/blob/master/manual/SourceRelated.rst
-- https://github.com/markus-antero/Stock/blob/master/manual/financial abbreviations.rst
+- https://github.com/markus-antero/Stock/blob/master/manual/financial_abbreviations.rst
 - https://github.com/markus-antero/Stock/blob/master/manual/indicators.rst
-- https://github.com/markus-antero/Stock/blob/master/manual/orange canvas.rst
+- https://github.com/markus-antero/Stock/blob/master/manual/orange_canvas.rst
 - https://github.com/markus-antero/Stock/blob/master/manual/pca._doc.rst
 
 Analytics
