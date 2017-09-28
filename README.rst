@@ -31,7 +31,7 @@ It can also be used to plot information;
 
 or to produce automated reports for documentation.
 
-- https://github.com/markus-antero/Stock/blob/master/_i.html
+- https://github.com/markus-antero/Stock/blob/master/wb_report.pdf
 
 S&P 500
 -------
