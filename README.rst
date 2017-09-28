@@ -6,14 +6,14 @@ The existing scope of this project is visualized in:
 
 The scope is linked using the Python programming-language.
 
-Additional sources
+Additional sources:
 
-:file:`manual/8_METRICS.rst`
-:file:`manual/SourceRelated.rst`
-:file:`manual/financial abbreviations.rst`
-:file:`manual/indicators.rst`
-:file:`manual/orange canvas.rst`
-:file:`manual/pca._doc.rst`
+- https://github.com/markus-antero/Stock/blob/master/manual/8_METRICS.rst
+- https://github.com/markus-antero/Stock/blob/master/manual/SourceRelated.rst
+- https://github.com/markus-antero/Stock/blob/master/manual/financial abbreviations.rst`
+- https://github.com/markus-antero/Stock/blob/master/manual/indicators.rst`
+- https://github.com/markus-antero/Stock/blob/master/manual/orange canvas.rst`
+- https://github.com/markus-antero/Stock/blob/master/manual/pca._doc.rst`
 
 Analytics
 ---------
@@ -31,7 +31,7 @@ It can also be used to plot information;
 
 or to produce automated reports for documentation.
 
-:file:`_i.html`
+- https://github.com/markus-antero/Stock/blob/master/_i.html`
 
 S&P 500
 -------
