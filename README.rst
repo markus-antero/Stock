@@ -1,5 +1,40 @@
+ARCGIS to SQL project
+=====================
+The existing scope of this project is visualized in:
+
+.. image:: domain.jpg
+
+The scope is linked using the Python programming-language.
+
+Additional sources
+
+:file:`manual/8_METRICS.rst`
+:file:`manual/SourceRelated.rst`
+:file:`manual/financial abbreviations.rst`
+:file:`manual/indicators.rst`
+:file:`manual/orange canvas.rst`
+:file:`manual/pca._doc.rst`
+
+Analytics
+---------
+
+AS a method for native Python based development Orange Canvas is used as the analytics platform for this project.
+The Orange Canvas is a GUI tool embedded with it's own Python based libraries.
+A session in the Orange Canvas is visualized in:
+
+.. image:: orangeCanvas.jpg
+
+As an analytics tool, the platform is usable as a visual staging area database.
+It can also be used to plot information;
+
+.. image:: goverment_debt_vs_gdp.png
+
+or to produce automated reports for documentation.
+
+:file:`_i.html`
+
 S&P 500
-=======
+-------
 The map produced as the result is available at:
 
 - https://nedlaw.maps.arcgis.com/apps/webappviewer/index.html?id=15677178af9a4808961d957cc21064d3
