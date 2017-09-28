@@ -1,19 +1,42 @@
 ARCGIS to SQL project
 =====================
-The existing scope of this project is visualized in:
+The existing scope of this project is to solve problems for: 
+
+- Acquiring and redefining static and updating data.
+- Utilizing python compatible analytics platform
+- Authentication and access to SQL and ARCGIS 
+- Importing and exporting data from the ARCGIS platform. 
+- Visualization 
+
+The relations are visualized in graph:
 
 .. image:: images/domain.jpg
 
-The scope is linked using the Python programming-language.
+Python SQL to ARCGIS and Orange Canvas development
+--------------------------------------------------
 
-Additional sources:
+this project tests Python as a mediator technology between SQL data-store and an existing front-end UI called ARCGIS. 
+As an UI platform, ARCGIS ( https://developers.arcgis.com/ ) is developer-friendly.
 
-- https://github.com/markus-antero/Stock/blob/master/manual/8_METRICS.rst
-- https://github.com/markus-antero/Stock/blob/master/manual/SourceRelated.rst
-- https://github.com/markus-antero/Stock/blob/master/manual/financial_abbreviations.rst
-- https://github.com/markus-antero/Stock/blob/master/manual/indicators.rst
-- https://github.com/markus-antero/Stock/blob/master/manual/orange_canvas.rst
-- https://github.com/markus-antero/Stock/blob/master/manual/pca._doc.rst
+To discover the links between source and documentation, database and thin-client UI, and programming practices and available libraries.
+The development platform used is Python 3.5.
+Task specific packages include:
+
+- geoalchemy2 
+- geopandas   
+- pandasql   
+- sqlalchemy  
+
+Python to UI:
+
+- html5lib				
+- esri arcgis
+
+Python to analytics:
+
+- Orange.canvas
+
+
 
 Analytics
 ---------
@@ -82,33 +105,6 @@ Query using SQL alchemy - parameter name notation - :gigs
                 inner join [finance].[dbo].[companyStatistics] as stat on c_index.symbol = stat.symbol
   where [GICS_Sector] like :gigs
 
-Python SQL to ARCGIS development
-================================
-
-this project tests Python as a mediator technology between SQL data-store and an existing front-end UI called ARCGIS. 
-As an UI platform, ARCGIS ( https://developers.arcgis.com/ ) is developer-friendly.
-
-To discover the links between source and documentation, database and thin-client UI, and programming practices and available libraries.
-The development platform used is Python 3.5.
-Task specific packages include:
-
-- geoalchemy2 
-- geopandas   
-- pandasql   
-- sqlalchemy  
-
-Python to UI:
-
-- html5lib				
-- esri arcgis			
-
-problems to solve
------------------
-- Acquiring and redefining static and updating data.
-- Authentication and access to SQL and ARCGIS 
-- Importing and exporting data from the ARCGIS platform. 
-- Visualization 
-
 Opinions about Python
 =====================
 
@@ -122,3 +118,12 @@ As development platform Python has mixed identity - it can be used to:
 It is designed as modular tool with programmable objects at core.
 E.g. In this project, the main access is done with using scripts, but the core is done using the objects. 
 
+Additional sources:
+-------------------
+
+- https://github.com/markus-antero/Stock/blob/master/manual/8_METRICS.rst
+- https://github.com/markus-antero/Stock/blob/master/manual/SourceRelated.rst
+- https://github.com/markus-antero/Stock/blob/master/manual/financial_abbreviations.rst
+- https://github.com/markus-antero/Stock/blob/master/manual/indicators.rst
+- https://github.com/markus-antero/Stock/blob/master/manual/orange_canvas.rst
+- https://github.com/markus-antero/Stock/blob/master/manual/pca._doc.rst
