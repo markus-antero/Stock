@@ -12,6 +12,13 @@ The relations are visualized in graph:
 
 .. image:: images/domain.jpg
 
+The solution is divided to scripts and additional source files divided to three modules:
+
+- ./data/complex (Math module) see complex.ipynb
+- ./data/finance (Data objects) see finance- and finance_main.ipymb
+- ./data/geographic (Map) see geographic.ipymb
+
+
 Python SQL to ARCGIS and Orange Canvas development
 --------------------------------------------------
 
@@ -61,11 +68,6 @@ The map produced as the result is available at:
 .. image:: images/Map.jpg
 
 The map features countries and companies as separate features. 
-The solution is divided to scripts and additional source files divided to three modules:
-
-- ./data/complex (Math module) see complex.ipynb
-- ./data/finance (Data objects) see finance- and finance_main.ipymb
-- ./data/geographic (Map) see geographic.ipymb
 
 Linked database design and queries
 ----------------------------------
