@@ -63,7 +63,7 @@ S&P 500
 -------
 The map produced as the result is available at:
 
-- https://nedlaw.maps.arcgis.com/apps/webappviewer/index.html?id=15677178af9a4808961d957cc21064d3
+- https://nedlaw.maps.arcgis.com/apps/Embed/index.html?webmap=21dee994a8f64f2785fbcfeae01ad99a&extent=-180,-49.1324,180,82.6354&home=true&zoom=true&scale=true&search=true&searchextent=true&basemap_gallery=true&disable_scroll=true&theme=light
 
 .. image:: images/Map.jpg
 
